@@ -11,6 +11,10 @@ package com.mycompany.prjclasses;
 public class PrjClasses {
 
     public static void main(String[] args) {
-        System.out.println("Hello World! \n I just did my first GitHub Test");
+        NewClass nc = new NewClass();
+        
+        nc.helloClass();
+        
+       System.out.println(nc.sSecondClass);
     }
 }
